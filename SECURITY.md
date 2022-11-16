@@ -1,1 +1,1 @@
-Cf README.md
+Cf [README](README.md)

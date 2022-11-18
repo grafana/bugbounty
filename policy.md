@@ -30,3 +30,30 @@ As a condition to participating in the Program all Participants acknowledge and 
 11. Governing Law; Limitation of Liability: The law that will apply in any dispute or lawsuit arising out of or in connection with this Program, and the courts that have jurisdiction over any such dispute or lawsuit will be New York, USA. In no event shall Grafana Labs be liable for any damages relating to the Program greater than USD$1,000.
 
 ## Scope
+
+### In scope:
+* [Grafana OSS](https://github.com/grafana/grafana) (i.e. core, not plugins)
+* [Mimir](https://github.com/grafana/mimir)
+
+Valid vulnerabilities on any product not explicitly listed in scope will be accepted but not eligible for a reward.
+
+### Out of scope:
+* Our customers’ Grafana installs
+* Automated scanning or reporting of any kind
+* Reports about security weaknesses with no proven impact will be processed as public issues and not be eligible for a reward.\
+  This category includes but is not limited to:
+    * CVE in an outdated dependency
+    * Defense in depth option not implemented (e.g. missing cookie attribute or HTTP header, clickjacking included)
+    * Secure coding best practice not used
+    * TLS configuration with older ciphersuites
+    * Logout CSRF
+    * Self exploitation (e.g. Self XSS or token reuse)
+* Brute forcing and enumeration attacks
+* Denial of service with a temporary impact on performance
+* Social engineering with a Low CVSS score (i.e when CVSS score is under 4.0 and User Interaction (UI) is Required)
+* [Grafana plugins](https://grafana.com/grafana/plugins/)
+* [Viewer role in Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/#limit-viewer-query-permissions) tampering dashboard queries
+
+## Rewards
+
+

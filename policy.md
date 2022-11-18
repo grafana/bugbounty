@@ -56,4 +56,30 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 
 ## Rewards
 
+* The following table is an outline of how rewards are calculated. All calculations and rewards are solely at the discretion of Grafana Labs, and all determinations by Grafana Labs regarding a reward are final and binding. 
+* Severity is based on [CVSS 3.1](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) Base Score Metrics.
+* Payouts are computed according to this severity table:
+
+| **CVSS Severity Rating** | **Minimium amount** | **Maximum amount** |
+| -------------------- | --------------- | -------------- |
+| **Low** (0.1 - 3.9) | 100 USD | 500 USD | 
+| **Medium** (4.0 - 6.9) | 500 USD | 3,000 USD | 
+| **High** (7.0 - 8.9) | 3,000 USD | 10,000 USD | 
+| **Critical** (9.0 - 10.0) | 10,000 USD | 20,000 USD | 
+
+* Bonus points are granted to reward high quality reports.\
+  Each bonus point provides a 5% payout increase.\
+  Those 2 elements allow to earn bonus points
+    * PoC provided
+        * 0 bonus point: None, just a high level description of the vulnerability
+        * 1 bonus point:  Instructions enabling easy reproducibility
+        * 2 bonus points: [K6 script](https://k6.io/) provided that can also be reused to check the fix
+    * Quality of report
+        * 0 bonus point: Low, unclear wording or generic copy/pasted
+        * 1 bonus point: Medium, specific vulnerability explained but no clear assessment of the business impact
+        * 2 bonus points: High, crystal clear explanation and assessment of the business impact
+
+* Researchers that received a reward will be added to our Hall of Fame once a fix is released and be asked to fill in a satisfaction survey
+* In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our Hall of Fame, regardless of duplication.
+
 

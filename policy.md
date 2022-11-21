@@ -8,7 +8,7 @@ As a condition to participating in the Program all Participants acknowledge and 
 
 ## Terms and Conditions
 
-1. Participants must follow the following guidelines in order to be eligible to receive any payouts pursuant to this Program:.
+1. Participants must follow the following guidelines in order to be eligible to receive any payouts pursuant to this Program:
     * **Only local testing of In-Scope products detailed in the section titled “Scope” below is allowed** (either via installing local development environments or running the publicly available Docker images);
     * Do not disclose any issue publicly before a fix has been released by Grafana Labs (even if you have already received the reward);
     * Participants may at no time disrupt any Grafana Labs service;

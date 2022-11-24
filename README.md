@@ -81,7 +81,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
         * 1 bonus point: Medium, specific vulnerability explained but no clear assessment of the business impact
         * 2 bonus points: High, crystal clear explanation and assessment of the business impact
 
-* Researchers that received a reward will be added to our [Hall of Fame](https://github.com/grafana/tobechanged/HALL_OF_FAME.md) once a fix is released and be asked to fill in a satisfaction survey
-* In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our [Hall of Fame](https://github.com/grafana/tobechanged/HALL_OF_FAME.md), regardless of duplication.
+* Researchers that received a reward will be added to our [Hall of Fame](https://github.com/grafana/tobechanged/blob/main/HALL_OF_FAME.md) once a fix is released and be asked to fill in a satisfaction survey
+* In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our [Hall of Fame](https://github.com/grafana/tobechanged/blob/main/HALL_OF_FAME.md), regardless of duplication.
 
 

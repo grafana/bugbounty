@@ -3,7 +3,9 @@
 ## Introduction
 
 With this bug bounty program (the “Program”) Grafana Labs aims to provide a stellar experience to security researchers and others (the “Participants”) who wish to submit reports to Grafana Labs regarding security vulnerabilities.\
-To do so participants must **create a security advisory via our [dedicated GitHub page](https://github.com/grafana/tobechanged/security/advisories)**.\
+\
+To do so **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/tobechanged/security/advisories)**.\
+\
 As a condition to participating in the Program all Participants acknowledge and agree to the following terms and conditions:
 
 ## Terms and Conditions

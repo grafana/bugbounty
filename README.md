@@ -1,5 +1,10 @@
 # Grafana Labs bug bounty policy
 
+## Caveat - This bug bounty is currently in stealth / beta
+* Whilst in beta this bounty is invite-only.  Please don't share with other researchers without consent from Grafana
+* We're building a really great bounty that's optimised to give researchers the best possible experience, but the beta will not be perfect.  We apologise in advance for any sub-optimal experiences and would love feedback!
+* Payment processing for validating findings may be delayed as we bring our payment platform live.
+
 ## Introduction
 
 With this bug bounty program (the “Program”) Grafana Labs aims to provide a stellar experience to security researchers and others (the “Participants”) who wish to submit reports to Grafana Labs regarding security vulnerabilities.\

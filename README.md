@@ -9,7 +9,7 @@
 
 With this bug bounty program (the “Program”) Grafana Labs aims to provide a stellar experience to security researchers and others (the “Participants”) who wish to submit reports to Grafana Labs regarding security vulnerabilities.\
 \
-To do so **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/tobechanged/security/advisories)**.\
+To do so **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/bugbounty/security/advisories)**.\
 \
 As a condition to participating in the Program all Participants acknowledge and agree to the following terms and conditions:
 
@@ -20,7 +20,7 @@ As a condition to participating in the Program all Participants acknowledge and 
     * Do not disclose any issue publicly before a fix has been released by Grafana Labs (even if you have already received the reward);
     * Participants may at no time disrupt any Grafana Labs service;
     * Participants may not access any accounts or data other than their own;
-    * Do not post attachments or Proof Of Concepts (POCs) on a 3rd party website, instead participants must include them in the [security advisory](https://github.com/grafana/tobechanged/security/advisories);
+    * Do not post attachments or Proof Of Concepts (POCs) on a 3rd party website, instead participants must include them in the [security advisory](https://github.com/grafana/bugbounty/security/advisories);
     * Participants must comply with all applicable laws;
     * Submissions must be made in English;
     * All actions must be performed strictly during participation in the Program and in adherence with this Policy; and
@@ -86,7 +86,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
         * 1 bonus point: Medium, specific vulnerability explained but no clear assessment of the business impact
         * 2 bonus points: High, crystal clear explanation and assessment of the business impact
 
-* Researchers that received a reward will be added to our [Hall of Fame](https://github.com/grafana/tobechanged/blob/main/HALL_OF_FAME.md) once a fix is released and be asked to fill in a satisfaction survey
-* In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our [Hall of Fame](https://github.com/grafana/tobechanged/blob/main/HALL_OF_FAME.md), regardless of duplication.
+* Researchers that received a reward will be added to our [Hall of Fame](https://github.com/grafana/bugbounty/blob/main/HALL_OF_FAME.md) once a fix is released and be asked to fill in a satisfaction survey
+* In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our [Hall of Fame](https://github.com/grafana/bugbounty/blob/main/HALL_OF_FAME.md), regardless of duplication.
 
 

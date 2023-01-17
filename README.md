@@ -25,16 +25,18 @@ As a condition to participating in the Program all Participants acknowledge and 
     * Submissions must be made in English;
     * All actions must be performed strictly during participation in the Program and in adherence with this Policy; and
     * All actions must be performed as good faith security research, with the intent to report to Grafana Labs
-2. All payouts made pursuant to this policy shall be calculated and paid at the sole discretion of Grafana Labs. All payments made by Grafana Labs are final and binding. Participants in this program shall be solely responsible for the payment of all applicable taxes. 
-3. Grafana Labs reserves the right to change the rules of this program at any time in its sole discretion.
-4. By providing a report to Grafana Labs pursuant to this policy, you grant Grafana Labs an irrevocable, perpetual, royalty free, transferable, worldwide license to use and exploit the report.
-5. Any report can be made public at the discretion of Grafana Labs.
-6. Eligibility of Participants to participate in the Program shall be determined at the sole discretion of Grafana Labs. Individuals located in any country subject to a U.S. embargo or listed on any sanctioned persons list shall not be permitted to participate.
-7. Safe harbor: Activities conducted in a manner consistent with this Policy will be considered authorized conduct and we will not initiate legal action against you for breach of any applicable license provisions. Note that you are still responsible for compliance with any local laws, and that this safe harbor does not extend to breach of any laws applicable to you.
-8. Current or former (in the last 12 months) Grafana Labs employees and contractors are not permitted to participate in this program. 
-9. We target an initial response to requests within 1 business day and triage within 2 business days. Payouts should happen as soon as the vulnerability is confirmed (i.e. at triage time). Payouts are based on CVSS score and bonus points and are calculated by Grafana Labs in its sole discretion.
-10. Grafana Labs reserves the right to make a determination of whether a violation of this policy is accidental or in good faith. When in doubt, please contact us at legal@grafana.com.
-11. Governing Law; Limitation of Liability: The law that will apply in any dispute or lawsuit arising out of or in connection with this Program, and the courts that have jurisdiction over any such dispute or lawsuit will be New York, USA. In no event shall Grafana Labs be liable for any damages relating to the Program greater than USD$1,000.
+2. All payouts made pursuant to this policy shall be calculated and paid at the sole discretion of Grafana Labs. All payments made by Grafana Labs are final and binding. Participants in this program shall be solely responsible for the payment of all applicable taxes.
+3. In order to receive their payouts, participants will need to submit personal information to [Intigriti](https://www.intigriti.com/), our 3rd party payment provider.
+4. Grafana Labs reserves the right to change the rules of this program at any time in its sole discretion.
+5. By providing a report to Grafana Labs pursuant to this policy, you grant Grafana Labs an irrevocable, perpetual, royalty free, transferable, worldwide license to use and exploit the report.
+6. Any report can be made public at the discretion of Grafana Labs.
+7. Eligibility of Participants to participate in the Program shall be determined at the sole discretion of Grafana Labs. Individuals located in any country subject to a U.S. embargo or listed on any sanctioned persons list shall not be permitted to participate.
+8. Safe harbor: Activities conducted in a manner consistent with this Policy will be considered authorized conduct and we will not initiate legal action against you for breach of any applicable license provisions. Note that you are still responsible for compliance with any local laws, and that this safe harbor does not extend to breach of any laws applicable to you.
+9. Current or former (in the last 12 months) Grafana Labs employees and contractors are not permitted to participate in this program.
+10. We target an initial response to requests within 1 business day and triage within 2 business days. Payouts should happen as soon as the vulnerability is confirmed (i.e. at triage time). Payouts are based on CVSS score and bonus points and are calculated by Grafana Labs in its sole discretion.
+11. Grafana Labs reserves the right to make a determination of whether a violation of this policy is accidental or in good faith. When in doubt, please contact us at legal@grafana.com.
+12. Governing Law; Limitation of Liability: The law that will apply in any dispute or lawsuit arising out of or in connection with this Program, and the courts that have jurisdiction over any such dispute or lawsuit will be New York, USA. In no event shall Grafana Labs be liable for any damages relating to the Program greater than USD$1,000.
+
 
 ## Scope
 
@@ -53,6 +55,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
     * Defense in depth option not implemented (e.g. missing cookie attribute or HTTP header, clickjacking included)
     * Secure coding best practice not used
     * TLS configuration with older ciphersuites
+    * Host enumeration (e.g. via Semi-blind SSRF)
     * Logout CSRF
     * Self exploitation (e.g. Self XSS or token reuse)
 * Brute forcing and enumeration attacks
@@ -63,16 +66,16 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 
 ## Rewards
 
-* The following table is an outline of how rewards are calculated. All calculations and rewards are solely at the discretion of Grafana Labs, and all determinations by Grafana Labs regarding a reward are final and binding. 
+* The following table is an outline of how rewards are calculated. All calculations and rewards are solely at the discretion of Grafana Labs, and all determinations by Grafana Labs regarding a reward are final and binding.
 * Severity is based on [CVSS 3.1](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) Base Score Metrics.
 * Payouts are computed according to this severity table:
 
 | **CVSS Severity Rating** | **Minimium amount** | **Maximum amount** |
 | -------------------- | --------------- | -------------- |
-| **Low** (0.1 - 3.9) | 100 USD | 500 USD | 
-| **Medium** (4.0 - 6.9) | 500 USD | 3,000 USD | 
-| **High** (7.0 - 8.9) | 3,000 USD | 10,000 USD | 
-| **Critical** (9.0 - 10.0) | 10,000 USD | 20,000 USD | 
+| **Low** (0.1 - 3.9) | 100 USD | 500 USD |
+| **Medium** (4.0 - 6.9) | 500 USD | 3,000 USD |
+| **High** (7.0 - 8.9) | 3,000 USD | 10,000 USD |
+| **Critical** (9.0 - 10.0) | 10,000 USD | 20,000 USD |
 
 * Bonus points are granted to reward high quality reports.\
   Each bonus point provides a 5% payout increase.\
@@ -88,5 +91,3 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 
 * Researchers that received a reward will be added to our [Hall of Fame](https://github.com/grafana/bugbounty/blob/main/HALL_OF_FAME.md) once a fix is released and be asked to fill in a satisfaction survey.
 * In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our [Hall of Fame](https://github.com/grafana/bugbounty/blob/main/HALL_OF_FAME.md), regardless of duplication.
-
-

@@ -41,12 +41,13 @@ As a condition to participating in the Program all Participants acknowledge and 
 ## Scope
 
 ### In scope:
-* [Grafana OSS](https://github.com/grafana/grafana) (i.e. core, not plugins)
-* [Mimir](https://github.com/grafana/mimir)
+* `main` branch of [Grafana OSS](https://github.com/grafana/grafana) (i.e. core, not plugins)
+* `main` branch of [Mimir](https://github.com/grafana/mimir)
 
 Valid vulnerabilities on any product not explicitly listed in scope will be accepted but not eligible for a reward.
 
 ### Out of scope:
+* Vulnerabilities that require a [feature toggle](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#feature_toggles) to be enabled
 * Our customers’ Grafana installs
 * Automated scanning or reporting of any kind
 * Reports about security weaknesses with no proven impact will be processed as public issues and not be eligible for a reward.\

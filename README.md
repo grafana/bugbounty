@@ -84,7 +84,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
     * PoC provided
         * 0 bonus point: None, just a high level description of the vulnerability
         * 1 bonus point:  Instructions enabling easy reproducibility
-        * 2 bonus points: [K6 script](https://k6.io/) provided that can also be reused to check the fix
+        * 2 bonus points: [k6 script](https://k6.io/) provided that can also be reused to check the fix
     * Quality of report
         * 0 bonus point: Low, unclear wording or generic copy/pasted
         * 1 bonus point: Medium, specific vulnerability explained but no clear assessment of the business impact

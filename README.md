@@ -3,7 +3,7 @@
 ## Caveat - This bug bounty is currently in stealth / beta
 * Whilst in beta this bug bounty is invite-only.  Please don't share with other researchers without consent from Grafana Labs
 * We're building a really great bug bounty that's optimised to give researchers the best possible experience, but the beta will not be perfect.  We apologise in advance for any sub-optimal experiences and would love feedback!
-* Payment processing for validating findings may be delayed as we bring our payment platform live.
+* Payments for valid reports are processed via [Intigriti](https://www.intigriti.com/)
 
 ## Introduction
 

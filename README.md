@@ -1,15 +1,14 @@
 # Grafana Labs bug bounty policy
 
-## Caveat - This bug bounty is currently in stealth / beta
-* Whilst in beta this bug bounty is invite-only.  Please don't share with other researchers without consent from Grafana Labs
-* We're building a really great bug bounty that's optimised to give researchers the best possible experience, but the beta will not be perfect.  We apologise in advance for any sub-optimal experiences and would love feedback!
-* Payments for valid reports are processed via [Intigriti](https://www.intigriti.com/)
-
 ## Introduction
 
 With this bug bounty program (the “Program”) Grafana Labs aims to provide a stellar experience to security researchers and others (the “Participants”) who wish to submit reports to Grafana Labs regarding security vulnerabilities.\
 \
 To do so **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/bugbounty/security/advisories)**.\
+\
+Payments for valid reports are processed via [Intigriti](https://www.intigriti.com/).\
+\
+Valid reports will receive a CVE number via our [GRAFANA CNA](https://www.cve.org/PartnerInformation/ListofPartners/partner/GRAFANA) and corresponding vulnerability details will be published in the [security advisories](https://grafana.com/security/security-advisories/) section of our website.\
 \
 As a condition to participating in the Program all Participants acknowledge and agree to the following terms and conditions:
 

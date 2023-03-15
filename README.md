@@ -63,6 +63,8 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 * Social engineering with a Low CVSS score (i.e when CVSS score is under 4.0 and User Interaction (UI) is Required)
 * [Grafana plugins](https://grafana.com/grafana/plugins/)
 * [Viewer role in Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/#limit-viewer-query-permissions) tampering dashboard queries
+* [Exposed JWT tokens](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/jwt/#url-login) in URL's when `url_login` is enabled
+* Data sources that have been deliberately manipulated to exploit a weakness in Grafana
 
 ## Rewards
 
@@ -78,7 +80,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 | **Critical** (9.0 - 10.0) | 10,000 USD | 20,000 USD |
 
 * Bonus points are granted to reward high quality reports.\
-  Each bonus point provides a 5% payout increase.\
+  Each bonus point provides a 5% payout increase calculated on the base amount.\
   Those 2 elements allow to earn bonus points
     * PoC provided
         * 0 bonus point: None, just a high level description of the vulnerability

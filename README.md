@@ -56,7 +56,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
     * Secure coding best practice not used
     * TLS configuration with older ciphersuites
     * Host enumeration (e.g. via Semi-blind SSRF)
-    * Logout CSRF
+    * CSRF
     * Self exploitation (e.g. Self XSS or token reuse)
 * Brute forcing and enumeration attacks
 * Denial of service with a temporary impact on performance

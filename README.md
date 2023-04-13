@@ -1,41 +1,12 @@
-# Grafana Labs bug bounty policy
+# <p align="center">Grafana Lab's Bug Bounty Policy<p align="center">
 
 ## Introduction
 
-With this bug bounty program (the “Program”) Grafana Labs aims to provide a stellar experience to security researchers and others (the “Participants”) who wish to submit reports to Grafana Labs regarding security vulnerabilities.\
-\
-To do so **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/bugbounty/security/advisories)**.\
-\
-Payments for valid reports are processed via [Intigriti](https://www.intigriti.com/).\
-\
-Valid reports will receive a CVE number via our [GRAFANA CNA](https://www.cve.org/PartnerInformation/ListofPartners/partner/GRAFANA) and corresponding vulnerability details will be published in the [security advisories](https://grafana.com/security/security-advisories/) section of our website.\
-\
-As a condition to participating in the Program all Participants acknowledge and agree to the following terms and conditions:
+Welcome! We are thrilled to invite you to participate in our bug bounty program in partnership with Grafana Labs' security team. Before beginning your research, we kindly request that you carefully review the program's [terms](https://github.com/grafana/bugbounty#terms-and-conditions) and [scope](https://github.com/grafana/bugbounty#scope). This will ensure that your efforts align with our objectives and that you receive proper compensation for any findings that meet the program's criteria.
 
-## Terms and Conditions
+To report a new vulnerability **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/bugbounty/security/advisories)**.
 
-1. Participants must follow the following guidelines in order to be eligible to receive any payouts pursuant to this Program:
-    * **Only local testing of In-Scope products detailed in the section titled “Scope” below is allowed** (either via installing local development environments or running the publicly available Docker images);
-    * Do not disclose any issue publicly before a fix has been released by Grafana Labs (even if you have already received the reward);
-    * Participants may at no time disrupt any Grafana Labs service;
-    * Participants may not access any accounts or data other than their own;
-    * Do not post attachments or Proof Of Concepts (POCs) on a 3rd party website, instead participants must include them in the [security advisory](https://github.com/grafana/bugbounty/security/advisories);
-    * Participants must comply with all applicable laws;
-    * Submissions must be made in English;
-    * All actions must be performed strictly during participation in the Program and in adherence with this Policy; and
-    * All actions must be performed as good faith security research, with the intent to report to Grafana Labs
-2. All payouts made pursuant to this policy shall be calculated and paid at the sole discretion of Grafana Labs. All payments made by Grafana Labs are final and binding. Participants in this program shall be solely responsible for the payment of all applicable taxes.
-3. In order to receive their payouts, participants will need to submit personal information to [Intigriti](https://www.intigriti.com/), our 3rd party payment provider.
-4. Grafana Labs reserves the right to change the rules of this program at any time in its sole discretion.
-5. By providing a report to Grafana Labs pursuant to this policy, you grant Grafana Labs an irrevocable, perpetual, royalty free, transferable, worldwide license to use and exploit the report.
-6. Any report can be made public at the discretion of Grafana Labs.
-7. Eligibility of Participants to participate in the Program shall be determined at the sole discretion of Grafana Labs. Individuals located in any country subject to a U.S. embargo or listed on any sanctioned persons list shall not be permitted to participate.
-8. Safe harbor: Activities conducted in a manner consistent with this Policy will be considered authorized conduct and we will not initiate legal action against you for breach of any applicable license provisions. Note that you are still responsible for compliance with any local laws, and that this safe harbor does not extend to breach of any laws applicable to you.
-9. Current or former (in the last 12 months) Grafana Labs employees and contractors are not permitted to participate in this program.
-10. We target an initial response to requests within 1 business day and triage within 2 business days. Payouts should happen as soon as the vulnerability is confirmed (i.e. at triage time). Payouts are based on CVSS score and bonus points and are calculated by Grafana Labs in its sole discretion.
-11. Grafana Labs reserves the right to make a determination of whether a violation of this policy is accidental or in good faith. When in doubt, please contact us at legal@grafana.com.
-12. Governing Law; Limitation of Liability: The law that will apply in any dispute or lawsuit arising out of or in connection with this Program, and the courts that have jurisdiction over any such dispute or lawsuit will be New York, USA. In no event shall Grafana Labs be liable for any damages relating to the Program greater than USD$1,000.
-
+Thank you for your interest in our program, and we look forward to your participation.  
 
 ## Scope
 
@@ -93,3 +64,38 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 
 * Researchers that received a reward will be added to our [Hall of Fame](https://github.com/grafana/bugbounty/blob/main/HALL_OF_FAME.md) once a fix is released and be asked to fill in a satisfaction survey.
 * In case of duplicate reports, only the first one submitted will be rewarded. All researchers submitting reports meeting our scope will still be added to our [Hall of Fame](https://github.com/grafana/bugbounty/blob/main/HALL_OF_FAME.md), regardless of duplication.
+
+---
+
+With this bug bounty program (the “Program”) Grafana Labs aims to provide a stellar experience to security researchers and others (the “Participants”) who wish to submit reports to Grafana Labs regarding security vulnerabilities.\
+\
+Payments for valid reports are processed via [Intigriti](https://www.intigriti.com/).\
+\
+Valid reports will receive a CVE number via our [GRAFANA CNA](https://www.cve.org/PartnerInformation/ListofPartners/partner/GRAFANA) and corresponding vulnerability details will be published in the [security advisories](https://grafana.com/security/security-advisories/) section of our website.\
+\
+As a condition to participating in the Program all Participants acknowledge and agree to the following terms and conditions:
+
+## Terms and Conditions
+
+1. Participants must follow the following guidelines in order to be eligible to receive any payouts pursuant to this Program:
+    * **Only local testing of In-Scope products detailed in the section titled “Scope” below is allowed** (either via installing local development environments or running the publicly available Docker images);
+    * Do not disclose any issue publicly before a fix has been released by Grafana Labs (even if you have already received the reward);
+    * Participants may at no time disrupt any Grafana Labs service;
+    * Participants may not access any accounts or data other than their own;
+    * Do not post attachments or Proof Of Concepts (POCs) on a 3rd party website, instead participants must include them in the [security advisory](https://github.com/grafana/bugbounty/security/advisories);
+    * Participants must comply with all applicable laws;
+    * Submissions must be made in English;
+    * All actions must be performed strictly during participation in the Program and in adherence with this Policy; and
+    * All actions must be performed as good faith security research, with the intent to report to Grafana Labs
+2. All payouts made pursuant to this policy shall be calculated and paid at the sole discretion of Grafana Labs. All payments made by Grafana Labs are final and binding. Participants in this program shall be solely responsible for the payment of all applicable taxes.
+3. In order to receive their payouts, participants will need to submit personal information to [Intigriti](https://www.intigriti.com/), our 3rd party payment provider.
+4. Grafana Labs reserves the right to change the rules of this program at any time in its sole discretion.
+5. By providing a report to Grafana Labs pursuant to this policy, you grant Grafana Labs an irrevocable, perpetual, royalty free, transferable, worldwide license to use and exploit the report.
+6. Any report can be made public at the discretion of Grafana Labs.
+7. Eligibility of Participants to participate in the Program shall be determined at the sole discretion of Grafana Labs. Individuals located in any country subject to a U.S. embargo or listed on any sanctioned persons list shall not be permitted to participate.
+8. Safe harbor: Activities conducted in a manner consistent with this Policy will be considered authorized conduct and we will not initiate legal action against you for breach of any applicable license provisions. Note that you are still responsible for compliance with any local laws, and that this safe harbor does not extend to breach of any laws applicable to you.
+9. Current or former (in the last 12 months) Grafana Labs employees and contractors are not permitted to participate in this program.
+10. We target an initial response to requests within 1 business day and triage within 2 business days. Payouts should happen as soon as the vulnerability is confirmed (i.e. at triage time). Payouts are based on CVSS score and bonus points and are calculated by Grafana Labs in its sole discretion.
+11. Grafana Labs reserves the right to make a determination of whether a violation of this policy is accidental or in good faith. When in doubt, please contact us at legal@grafana.com.
+12. Governing Law; Limitation of Liability: The law that will apply in any dispute or lawsuit arising out of or in connection with this Program, and the courts that have jurisdiction over any such dispute or lawsuit will be New York, USA. In no event shall Grafana Labs be liable for any damages relating to the Program greater than USD$1,000.
+

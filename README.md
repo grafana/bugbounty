@@ -11,7 +11,7 @@ Thank you for your interest in our program, and we look forward to your particip
 ## Scope
 
 ### In scope:
-* `main` branch of [Grafana OSS](https://github.com/grafana/grafana) (i.e. core, not plugins)
+* `main` branch of [Grafana OSS](https://github.com/grafana/grafana) - `docker run -p 3000:3000 grafana/grafana:main` then visit [localhost](http://localhost:3000/) and login with `admin:admin`
 * `main` branch of [Mimir](https://github.com/grafana/mimir)
 
 Valid vulnerabilities on any product not explicitly listed in scope will be accepted but not eligible for a reward.
@@ -32,7 +32,7 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
 * Brute forcing and enumeration attacks
 * Denial of service with a temporary impact on performance
 * Social engineering with a Low CVSS score (i.e when CVSS score is under 4.0 and User Interaction (UI) is Required)
-* [Grafana plugins](https://grafana.com/grafana/plugins/)
+* [Grafana plugins](https://grafana.com/grafana/plugins/) (core plugins are in scope)
 * [Viewer role in Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/#limit-viewer-query-permissions) tampering dashboard queries
 * [Exposed JWT tokens](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/jwt/#url-login) in URL's when `url_login` is enabled
 * Data sources that have been deliberately manipulated to exploit a weakness in Grafana

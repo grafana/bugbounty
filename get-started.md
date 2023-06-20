@@ -22,4 +22,3 @@ Non-core plugins are considered out of scope as Grafana administrators install t
 * Authentication issues.
 * Cross-Site-Scripting, DOM clobbering, prototype pollution and other client side issues.
 * For previously found vulnerabilities, see: https://grafana.com/security/security-advisories/
-* Cross-Site-Scripting, DOM clobbering, prototype pollution and other client side issues.

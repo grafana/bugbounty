@@ -10,7 +10,7 @@
 
 Please refer to the following [documentation page](https://grafana.com/docs/grafana/latest/administration/roles-and-permissions/) in order to understand the roles and permissions in Grafana.
 
-Installed non-core plugins are considered to be trusted so any vulnerability affecting those will be handled outside of the bug bounty program. 
+Non-core plugins are considered out of scope as Grafana administrators install them at their own risk. 
 
 ## Accepted risks
 * **Grafana**: A user with Viewer role that can tamper with dashboard queries [[documentation](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/#limit-viewer-query-permissions)]
@@ -20,4 +20,6 @@ Installed non-core plugins are considered to be trusted so any vulnerability aff
 
 ## Issues that we are particular interested in
 * Authentication issues.
+* Cross-Site-Scripting, DOM clobbering, prototype pollution and other client side issues.
+* For previously found vulnerabilities, see: https://grafana.com/security/security-advisories/
 * Cross-Site-Scripting, DOM clobbering, prototype pollution and other client side issues.

@@ -1,10 +1,12 @@
-# <p align="center">Grafana Lab's Bug Bounty Policy<p align="center">
+# <p align="center">Grafana Labs Bug Bounty Policy<p align="center">
 
 ## Introduction
 
-Welcome! We are thrilled to invite you to participate in our bug bounty program in partnership with Grafana Labs' security team. Before beginning your research, we kindly request that you carefully review the program's [terms](https://github.com/grafana/bugbounty#terms-and-conditions) and [scope](https://github.com/grafana/bugbounty#scope). This will ensure that your efforts align with our objectives and that you receive proper compensation for any findings that meet the program's criteria.
+Welcome! We are thrilled to invite you to participate in our bug bounty program in partnership with Grafana Labs' security team. Before beginning your research, we kindly request that you carefully review the program's [scope](https://github.com/grafana/bugbounty#scope) and [terms](https://github.com/grafana/bugbounty#terms-and-conditions) to ensure that your efforts align with our objectives and that you receive proper compensation for any findings that meet the program's criteria.
 
-To report a new vulnerability **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/bugbounty/security/advisories)**.
+1. Report a new vulnerability here: https://github.com/grafana/bugbounty/security/advisories/new
+2. We will review your report within 48 hours.   
+3. If the report is valid, we will pay the bounty through [Intigriti](https://www.intigriti.com/)'s platform.
 
 Thank you for your interest in our program, and we look forward to your participation.  
 

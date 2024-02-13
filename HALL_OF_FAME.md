@@ -7,4 +7,6 @@ Grafana Labs would like to thank the following security researchers for having r
 [Johan Carlsson](https://github.com/joaxcar) - [CVE-2023-1387](https://github.com/grafana/bugbounty/security/advisories/GHSA-5585-m9r5-p86j)
 
 [Sebastian Obara](https://www.linkedin.com/in/sobara/) of SecuRing - [CVE-2023-2183](https://github.com/grafana/bugbounty/security/advisories/GHSA-cvm3-pp2j-chr3)
+
+[Alexandre Negrel](https://www.negrel.dev) - [CVE-2023-6152](https://github.com/grafana/bugbounty/security/advisories/GHSA-3hv4-r2fm-h27f)
  

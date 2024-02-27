@@ -8,7 +8,7 @@ Grafana Labs would like to thank the following security researchers for having r
 
 [Sebastian Obara](https://www.linkedin.com/in/sobara/) of SecuRing - [CVE-2023-2183](https://github.com/grafana/bugbounty/security/advisories/GHSA-cvm3-pp2j-chr3)
 
-Md Ishrat Shahriyar of Beetles Cyber Security - [SSRF in grafana <=7.0.3](https://github.com/grafana/grafana/issues/26623)
+[Md Ishrat Shahriyar](https://www.linkedin.com/in/ishahriyar/) - [SSRF in grafana <=7.0.3](https://github.com/grafana/grafana/issues/26623)
 
 [Alexandre Negrel](https://www.negrel.dev) - [CVE-2023-6152](https://github.com/grafana/bugbounty/security/advisories/GHSA-3hv4-r2fm-h27f) 
  

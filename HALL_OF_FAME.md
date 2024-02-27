@@ -12,3 +12,4 @@ Grafana Labs would like to thank the following security researchers for having r
 
 [Alexandre Negrel](https://www.negrel.dev) - [CVE-2023-6152](https://github.com/grafana/bugbounty/security/advisories/GHSA-3hv4-r2fm-h27f) 
  
+[Maxime Escourbiac](https://www.linkedin.com/in/maxime-escourbiac-1bb64426/) from Michelin CERT and [Yassine Bengana](https://www.linkedin.com/in/yassine-bengana/) from Abicom for Michelin CERT - [CVE-2023-5122](https://grafana.com/security/security-advisories/cve-2023-5122/) and [CVE-2023-5123](https://grafana.com/security/security-advisories/cve-2023-5123/)

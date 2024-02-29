@@ -30,7 +30,9 @@ Valid vulnerabilities on any product not explicitly listed in scope will be acce
     * CSRF with only an Availability impact
     * Self exploitation (e.g. Self XSS or token reuse)
 * Brute forcing and enumeration attacks
-* Denial of service with a temporary impact on performance if the user level is not Viewer
+* For viewers, a valid DoS vulnerability must have a non-temporary impact on performance.
+    * For editors, a valid DoS vulnerability must provide significant additional leverage beyond what an editor can do by design.
+    * DoS attacks by administrators are fully out-of-scope.
 * Social engineering with a Low CVSS score (i.e when CVSS score is under 4.0 and User Interaction (UI) is Required)
 * [Grafana plugins](https://grafana.com/grafana/plugins/)
 * [Viewer role in Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/#limit-viewer-query-permissions) tampering dashboard queries

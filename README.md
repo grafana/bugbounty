@@ -1,12 +1,17 @@
 # <p align="center">Grafana Lab's Bug Bounty Policy<p align="center">
 
-## Introduction
+## Note: this program has been moved to Intigriti. 
+We are pleased to announce that our Bug Bounty Program has been moved to Intigriti. This change will provide a more efficient platform for reporting and managing vulnerabilities.
 
-Welcome! We are thrilled to invite you to participate in our bug bounty program in partnership with Grafana Labs' security team. Before beginning your research, we kindly request that you carefully review the program's [terms](https://github.com/grafana/bugbounty#terms-and-conditions) and [scope](https://github.com/grafana/bugbounty#scope). This will ensure that your efforts align with our objectives and that you receive proper compensation for any findings that meet the program's criteria.
+Please submit your reports to one of the following programs:
 
-To report a new vulnerability **participants must create a security advisory via our [dedicated GitHub page](https://github.com/grafana/bugbounty/security/advisories)**.
+* [Grafana](https://app.intigriti.com/programs/grafanalabs/grafanaossbbp/detail) for Grafana OSS
+* [Grafana Databases](https://app.intigriti.com/programs/grafanalabs/grafanalabs/detail) for Loki, Tempo, Mimir and Pyroscope
 
-Thank you for your interest in our program, and we look forward to your participation.  
+
+---
+The text below is saved for historical purposes. Take a look at the programs listed above to find the new updated submission guidelines.
+
 
 ## Scope
 

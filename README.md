@@ -8,6 +8,7 @@ Please submit your reports to one of the following programs:
 * [Grafana](https://app.intigriti.com/programs/grafanalabs/grafanaossbbp/detail) for Grafana OSS
 * [Grafana Databases](https://app.intigriti.com/programs/grafanalabs/grafanalabs/detail) for Loki, Tempo, Mimir and Pyroscope
 
+You can still report any potential security vulnerabilities through this repository [here](https://github.com/grafana/bugbounty/security/advisories/new), but please note that this functionality will be deprecated in the future.
 
 ---
 The text below is saved for historical purposes. Take a look at the programs listed above to find the new updated submission guidelines.
